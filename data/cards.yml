@@ -1,0 +1,23 @@
+DCF:
+  name: "Discounted Cash Flows"
+  description: "Discounted  cash  flow  valuation is  a tool  for estimating
+intrinsic value."
+  input: ["Year 1", "Year 2", "Year 3","Year 4", "Year5", "Growth rate", "Discount rate"]
+Relval:
+  name: "Price / Earnings Ratio"
+  description: "Relative valuation is much more likely to reflect market perceptions and
+moods than discounted cash flow valuation."
+  input: ["my Price", "my Earnings", "Price Comp 1", "Earn. Comp. 1","Price Comp 2", "Earn. Comp 2"]
+FCFF:
+  name: "Value of Firm/FCFF"
+  description: "While Price earnings ratios look at the market value of equity relative
+to earnings to equity investors, Value earnings ratios look at the
+market value of the firm relative to operating earnings. "
+  input: ["my Val", "my FCFF", "Val Comp 1", "FCFF Comp 1","Val Comp 2", "FCFF Comp 2"]
+V/EBTDA:
+  name: "Value/EBITDA"
+  description: "how capital intensive the firm is (high capital intensity firms will tend to have lower value/EBITDA ratios), and how much reinvestment is needed to keep the business going and create growth "
+  input: ["my Val", "my EBITDA", "Val Comp 1", "EBITDA Comp 1","VAL Comp 2", "EBITDA Comp 2"]
+
+
+

@@ -8,10 +8,16 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,300,400" rel="stylesheet">
   </head>
+
   <body>
+    <%= partial "layouts/navbar" %>
+
     <%= yield %>
+
+        <%= javascript_include_tag "application" %>
+
   </body>
 </html>

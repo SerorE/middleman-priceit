@@ -1,17 +1,23 @@
-#home {
-  background-color: #D23333;
+.body {
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+}
+
+.logo {
+  height: 80px;
+  border-radius: 10px;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
+.wrapper-grey {
+  background-color: #F4F4F4;
+  padding: 15px;
+  height:100vh;
+}
+
+.inputs-card > .form-group {
+  display: inline-block;
 }

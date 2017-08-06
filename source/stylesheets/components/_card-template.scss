@@ -1,0 +1,115 @@
+.card{
+display: flex;
+flex-direction: column;
+margin:0px;
+padding-top: 0px;
+background: white;
+box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+color: rgb(100,100,100);
+padding: 15px;
+border-style: solid;
+border-width: 3px;
+border-color: white;
+border-radius: 5px;
+// height:40vh;
+margin-bottom:20px;
+}
+
+.card-header , .card-body, .card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn {
+ background-color: rgb(235,235,235);
+&:hover{
+   background-color: rgb(220,220,220);
+}
+
+}
+
+.card-body {
+   flex-wrap: wrap;
+   padding:10px;
+   // mar
+}
+
+.card-header {
+padding: 0px 20px;
+list-style-type: none;
+border-bottom: solid;
+border-width: 1px;
+border-color: rgb(230,230,230);
+}
+
+.card-price-round {
+  font-size:20px;
+  width:60px;
+  height:60px;
+  padding: 10px;
+  padding-top: 12px;
+  padding-left:18px;
+  color:#40A798;
+  // background-color: black;
+  border-style: solid;
+  border-radius: 50%;
+ border-style: solid;
+  border-width:2px;
+  border-radius: 50%;
+  border-color:#40A798;
+}
+
+
+
+.card-header h2 {
+      text-align: center;
+  width: 50%;
+ font-size: 25px;
+ // margin:0px 10px;
+ flex-grow: 1;
+}
+
+.input-button{
+
+}
+
+.form-control{
+      // padding-left: 0px;
+          margin-top: 10px;
+          width: 100px;
+      // align-items: center;
+    -webkit-border-start-color: rgb(100,100,100);
+    -webkit-border-end-color: rgb(100,100,100);
+    -webkit-border-after-color: rgb(100,100,100);
+    -webkit-border-before-color: rgb(100,100,100);
+    font-size:11px;
+    // margin:10px
+  }
+
+  #percentage {
+ width: 100px;
+ font-size:25px;
+}
+
+.btn {
+  // margin:10px;
+}
+
+.card-footer {
+
+h5 {
+  // padding-top: 20px;
+  width: 50%;
+ font-size: 13px;
+// margin:0px 10px;
+ flex-grow: 1;
+}
+h6 {
+ text-decoration: underline;
+  }
+}
+
+// .form-control .text input{
+//     padding: 0px;
+// }
