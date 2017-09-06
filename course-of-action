@@ -1,0 +1,29 @@
+course of action 6/9
+github.com/lewagon/rails-templates#minimal
+
+gem install rails -v 5.0.5 # Maybe you already have it :)
+rails new \
+  -T --database postgresql \
+  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \
+ PriceIt
+ 
+ git init
+git add .
+git commit -m "Initial commit"
+hub create
+git push origin master
+
+(maybe optional: rails db:create)
+
+(move everything on rails)
+
+(heroku login)
+
+
+heroku create PriceIt --region eu
+
+git push heroku master
+
+(maybe optional: heroku run rails db:migrate)
+
+heroku open         # open in your browser
